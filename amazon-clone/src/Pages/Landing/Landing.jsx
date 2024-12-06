@@ -1,10 +1,17 @@
-import React from 'react';
+import React from 'react'
+import LayOut from '../../components/LayOut/LayOut'
+import CarouselEffect from "../../components/Carousel/CarouselEffect"
+import Category from "../../components/Category/Category"
+import Product from "../../components/Products/Product"
+
 
 const Landing = () => {
     return (
-        <div>
-            
-        </div>
+        <LayOut>
+            <CarouselEffect/>
+            <Category/>   
+            <Product/>
+        </LayOut>
     );
 }
 

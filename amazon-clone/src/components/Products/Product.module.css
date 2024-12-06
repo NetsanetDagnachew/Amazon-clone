@@ -5,7 +5,7 @@
     color: black;
     text-decoration: none;
     position: relative;font-size: small;
-    background-color: brown;
+    /* background-color: brown; */
     height:300px;
  
     
@@ -19,7 +19,6 @@
     justify-items: center;
     gap: 40px;
     font-size: 5px;
-    background-color: blue;
     /* background-color: blue; */
     overflow: hidden;
   }

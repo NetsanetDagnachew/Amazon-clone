@@ -1,18 +1,18 @@
 import React from 'react';
 import classes from './category.module.css'
-
+import { Link } from 'react-router-dom';
 const CategoryCard = ({data}) => {
     // console.log(data);
     return (
         <div className={classes.category}>
            
-            <a href=''>
+            <Link to={`/category/${data.name}`}>
                 <span>                    
                     <h2>{data?.title}</h2>
                     <img src={data?.imgLink} alt="category images" />
                     <p>shop now</p> 
                 </span>
-            </a>
+            </Link>
         </div>
     )
 }
