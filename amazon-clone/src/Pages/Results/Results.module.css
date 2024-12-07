@@ -1,11 +1,12 @@
-.product_container{
+.products_container{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
     max-width:1450px;
     gap: 50px;
     justify-items: center;
+    /* background-color: brown; */
 }
 
-.product_container section{
+.products_container section{
     margin: auto;
 }
