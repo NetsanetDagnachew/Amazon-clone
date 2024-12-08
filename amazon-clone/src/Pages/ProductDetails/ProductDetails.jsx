@@ -12,7 +12,6 @@ const ProductDetails = () => {
    const [isLoading, setIsLoading]=useState(false)
    const {productId}=useParams()
     
-
     useEffect(() => {
         setIsLoading(true)
       axios.get(`${productUrl}/products/${productId}`)
@@ -29,7 +28,8 @@ const ProductDetails = () => {
 
     return (
         <LayOut>  
-            { isLoading ?( <Loader/>):(<ProductCard product={product} key={product.id}/>
+            { isLoading ?( <Loader/>):(<ProductCard product={product} key={product.id} 
+            flex={true} renderDesc={true}/>
         )}          
          
         </LayOut>
