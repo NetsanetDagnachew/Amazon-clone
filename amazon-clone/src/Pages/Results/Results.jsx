@@ -39,7 +39,10 @@ const Results = () => {
                     {
                       results?.map((product)=>(
                        <ProductCard key={productUrl.id} 
-                                        product={product} />
+                                    product={product}
+                                    renderDesc={false} 
+                                    renderAdd={true}
+                                    />
                     )                      
                     )}
                 </div> 

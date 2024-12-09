@@ -26,7 +26,7 @@ const Product = () => {
                 <section className={classes.products_container}>
             {              
           products && products.map && products.map((singleProduct)=>{               
-             return <ProductCard  product={singleProduct} Key={singleProduct.id}/>  
+             return <ProductCard  renderAdd={true} product={singleProduct} Key={singleProduct.id}/>  
             })        
             }        
             </section> 

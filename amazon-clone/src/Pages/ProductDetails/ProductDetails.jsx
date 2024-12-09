@@ -28,8 +28,11 @@ const ProductDetails = () => {
 
     return (
         <LayOut>  
-            { isLoading ?( <Loader/>):(<ProductCard product={product} key={product.id} 
-            flex={true} renderDesc={true}/>
+            { isLoading ?( <Loader/>):(<ProductCard product={product} 
+                                                    key={product.id} 
+                                                    flex={true}     
+                                                    renderDesc={true}
+                                                    renderAdd={true}/>
         )}          
          
         </LayOut>
