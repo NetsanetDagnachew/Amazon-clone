@@ -112,18 +112,14 @@
     }
   
   }
-  /* .product div {
-    margin: 0 auto;
-  } */
 
-  /* 
    
  
  
   
   
   
-  @media (max-width: 1450px) {
+  /* @media (max-width: 1450px) {
     .card__container {
       width: 90%;
     }
@@ -143,8 +139,9 @@
       margin: 100px 10px;
       gap: 30px;
     }
-  }
-  @media (max-width: 768px) {
+  } */
+
+  /* @media (max-width: 768px) {
     
     .product__flexed {
       gap: 20px;
@@ -157,4 +154,4 @@
     .card__container img {
       width: 90%;
     }
-  } */ 
+  }  */
